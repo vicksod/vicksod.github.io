@@ -95,7 +95,7 @@ main .main__about{
 	color: #6c6c6c;
 }
 .about__right li{
-	background: url(img/mark.png) 0px no-repeat;
+	background: url(../img/mark.png) 0px no-repeat;
 	padding-left: 25px;
 	margin-top: 10px;
 }
