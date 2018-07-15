@@ -52,7 +52,7 @@ main {
 main .main__welcome {
 	text-align: center;
 	padding: 200px 0 326px 0; 
-	background: url(../img/Background.jpg) center center;
+	background-image: url(../img/Background.jpg) center center;
 }
 main .main__welcome p{
 	color: #FFF;
