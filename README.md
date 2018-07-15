@@ -1,1 +1,0 @@
-# vicksod.github.io
