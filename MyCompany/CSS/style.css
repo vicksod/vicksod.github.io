@@ -18,8 +18,8 @@ header{
 }
 .header__logo{
 	text-transform: uppercase;
-	color: #FFF;
-	font-weight: bold; /*пожырнее текст*/
+	color: #fff;
+	font-weight: 700;
 	font-size: 30px;
 	cursor: pointer;
 	margin-top: 60px;
@@ -28,14 +28,13 @@ header{
 }
 nav{
 	margin-top: 70px;
-	margin-left: 29%;
+	margin-left: 25%;
 }
 .topnav a{
-	color: #FFF;
+	color: #fff;
 	text-align: center;
-	padding: 12px 16px;
+	padding: 12px 10px;
 	font-size: 18px;
-	font-weight: bold;
 	text-transform: uppercase;
 }
 .topnav a:hover{
@@ -46,7 +45,7 @@ nav{
 }
 main {
 	display: flex;
-	flex-direction: column; /*чтоб не горизонтально а вертикально*/
+	flex-direction: column; 
 	width: 100%;
 }
 main .main__welcome {
@@ -68,7 +67,7 @@ main .main__welcome h1:after {
 }
 .mycompany {
 	color: #fcac45;
-	font-weight: 900;
+	font-weight: 700;
 }
 .wrapper {
 	width: 76%;
@@ -79,13 +78,15 @@ main .main__about{
 	padding: 100px 0 100px 0;
 }
 .about__right{
-	margin-left: 175px;
+	margin-left: 10%;
+	flex: 3;
 }
 .about__right h1{
 	display: inline-block;
 	border-bottom: 3px solid #fcac45;
 	padding-bottom: 20px;
 	text-transform: uppercase;
+	font-size: 28px;
 }
 .about__right h1:after {
 	display: none;
@@ -103,8 +104,13 @@ main .main__about{
 	font-style: italic;
 	color: #5a5a5a;
 }
-.mw-100{
-	min-width: 100%;
+.about__left {
+	flex: 4;
+}
+iframe {
+	padding: auto;
+	width: 100%;
+	height: 100%;
 }
 
 
@@ -112,21 +118,23 @@ main .main__about{
 
 
 .main__team{
-	background: #000;
+	background: #111;
 	text-align: center;
 	padding: 100px 0 100px 0;
 	color: #fff;
 }
-.photo{
+.photo img{
+	height: 120px;
+	width: 120px;
 	margin: 30px auto;
 	opacity: 0.9;
 }
-.owl-carousel{
+.our__team{
 	margin-top: 50px;
 	display: flex;
 }
 .card{
-	margin: 0 50px;
+	margin: 0 30px;
 }
 .name{
 	font-size: 20px;
