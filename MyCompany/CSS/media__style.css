@@ -29,6 +29,9 @@
 	.our-services {
 		flex-direction: column;
 	}
+	.our__team {
+		flex-direction: column;
+	}
 	.image {
 		margin-top: 40px;
 	}
