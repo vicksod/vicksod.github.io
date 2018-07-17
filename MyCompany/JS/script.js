@@ -7,23 +7,3 @@ menu.onclick = function myFunction() {
 		x.className = "topnav";
 	}
 }
-
-$(document).ready(function(){
-  $(".owl-carousel").owlCarousel({
-  	loop:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        628:{
-            items:2
-        },
-        940:{
-        	items:3
-        },
-        1260:{
-            items:4
-        },
-    }
-  });
-});
