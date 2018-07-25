@@ -134,7 +134,7 @@ main .main__about {
 	flex: 4;
 }
 iframe {
-	padding: auto;
+	padding: 0;
 	width: 100%;
 	height: 100%;
 }
