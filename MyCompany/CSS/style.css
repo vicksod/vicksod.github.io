@@ -1,25 +1,25 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 }
-body{
+body {
 	font-family: 'Open Sans', sans-serif;
 }
-a{
+a {
 	text-decoration: none;
 }
-li{
+li {
 	list-style: none;
 }
 
 										/*<---------- HEADER HEADER HEADER ---------->*/
 
-header{
+header {
 	width: 100%;
 	background: #111;
 	display: flex;
 }
-.header__logo{
+.header__logo {
 	text-transform: uppercase;
 	color: #fff;
 	font-weight: 700;
@@ -29,21 +29,21 @@ header{
 	margin-left: 12%;
 	margin-bottom: 30px;
 }
-nav{
+nav {
 	margin-top: 70px;
 	margin-left: 25%;
 }
-.topnav a{
+.topnav a {
 	color: #fff;
 	text-align: center;
 	padding: 12px 10px;
 	font-size: 18px;
 	text-transform: uppercase;
 }
-.topnav a:hover{
+.topnav a:hover {
 	border-bottom: 3px solid #fcac45;
 }
-.topnav .icon{
+.topnav .icon {
 	display: none;
 }
 
@@ -76,12 +76,12 @@ main .main__welcome {
 	padding: 200px 0 326px 0; 
 	background: url(../img/Background.jpg) center center;
 }
-main .main__welcome p{
-	color: #FFF;
+main .main__welcome p {
+	color: #fff;
 	font-size: 20px;
 }
-main .main__welcome h1{
-	color: #FFF;
+main .main__welcome h1 {
+	color: #fff;
 	font-size: 44px;
 	text-transform: uppercase;
 }
@@ -99,15 +99,15 @@ main .main__welcome h1:after {
 
 										/*<---------- ABOUT ABOUT ABOUT ---------->*/
 
-main .main__about{
+main .main__about {
 	display: flex;
 	padding: 100px 0 100px 0;
 }
-.about__right{
+.about__right {
 	margin-left: 10%;
 	flex: 3;
 }
-.about__right h1{
+.about__right h1 {
 	display: inline-block;
 	border-bottom: 3px solid #fcac45;
 	padding-bottom: 20px;
@@ -117,11 +117,11 @@ main .main__about{
 .about__right h1:after {
 	display: none;
 }
-.about__right p{
+.about__right p {
 	margin: 30px 0 50px 0;
 	color: #6c6c6c;
 }
-.about__right li{
+.about__right li {
 	background: url(../img/mark.png) 0px no-repeat;
 	padding-left: 25px;
 	margin-top: 10px;
@@ -141,34 +141,34 @@ iframe {
 
 										/*<---------- TEAM TEAM TEAM ---------->*/
 
-.main__team{
+.main__team {
 	background: #111;
 	text-align: center;
 	padding: 100px 0 100px 0;
 	color: #fff;
 }
-.photo img{
+.photo img {
 	height: 120px;
 	width: 120px;
 	margin: 30px auto;
 	opacity: 0.9;
 }
-.our__team{
+.our__team {
 	margin-top: 50px;
 	display: flex;
 }
-.card{
+.card {
 	margin: 0 30px;
 }
-.name{
+.name {
 	font-size: 20px;
 	margin-bottom: 7px;
 }
-.position{
+.position {
 	font-size: 16px;
 	margin-bottom: 35px;
 }
-.about__position{
+.about__position {
 	font-size: 14px;
 }
 
@@ -313,8 +313,8 @@ textarea {
 	width: 100%;
 	height: 163px;
 }
-input, textarea{
-	border: 1px solid #999999;
+input, textarea {
+	border: 1px solid #999;
 	margin-top: 5px;
 }
 .button__block {
@@ -351,14 +351,14 @@ footer {
 
 										/*<---------- DIFFERRENT DIFFERRENT DIFFERRENT ---------->*/
 
-.black__h1{
+.black__h1 {
 	font-size: 44px;
 	padding-bottom: 30px;
 	text-align: center;
 	color: #000;
 	text-transform: uppercase;
 }
-.white__h1{
+.white__h1 {
 	font-size: 44px;
 	padding-bottom: 30px;
 	text-align: center;
