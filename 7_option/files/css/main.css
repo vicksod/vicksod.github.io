@@ -1,0 +1,553 @@
+@font-face {
+    font-family: GothamPro-Bold;
+    src: url(/fonts/GothamPro-Bold.ttf);
+}
+@font-face {
+    font-family: GothamPro-Medium;
+    src: url(/fonts/GothamPro-Medium.ttf);
+}
+* {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: rgb(27,30,35);
+}
+body {
+	color: rgb(129,141,161);
+	margin: 0;
+	background: rgb(27,30,35);
+	font-family: GothamPro-Bold;
+	font-weight: normal;
+}
+p {
+	margin: 16px 0;
+}
+h1, h2 {
+	font-size: 50px;
+}
+h2 {
+	width: 80%;
+	padding: 40px 0;
+	margin: 0 auto;
+}
+.yellow-text {
+	color: rgb(251,255,0)!important;
+}
+.red-text {
+	color: rgb(255,0,69)!important;
+}
+.green-text {
+	color: rgb(0,212,117)!important;
+}
+.caps-text {
+	text-transform: uppercase;
+}
+.midle-text {
+	font-size: 22px;
+}
+.s-midle-text {
+	font-size: 16px;
+}
+.small-text {
+	font-size: 12px;
+	font-family: GothamPro-Medium;
+}
+.s-small-text {
+	font-size: 11px;
+	font-family: GothamPro-Medium;
+}
+.m-small-text {
+	font-size: 10px;
+	font-family: GothamPro-Medium;
+}
+.header {
+	background: rgb(27,30,35);
+	height: 55px;
+}
+.flex-container {
+	width: 80%;
+	padding: 40px 0;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.header .flex-container {
+    width: 90%;
+    padding: 14px 0 5px 0;
+    background: rgb(27,30,35);
+    position: fixed;
+    margin: 0 5%;
+    z-index: 5;
+}
+.header .header-logo {
+	width: 100%;
+	height: 100%;
+	margin: 0 10px;
+}
+.header .header-buttons {
+	display: flex;
+}
+.header .header-buttons div {
+	margin: 0 5px;
+	width: 100px;
+	height: 36px;
+}
+.header .header-buttons .yellow-button a, 
+.header .header-buttons .black-button a {
+	display: block;
+	padding: 11px;
+	text-align: center;
+	font-size: 13px;
+}
+.black-button a {
+	color: rgb(251,255,0);
+	position: relative;
+}
+.yellow-button {
+	background: rgb(251,255,0);
+	border-radius: 5px;
+}
+.start-trading .mobile-image-block {
+	display: none;
+}
+.start-trading .left-text-block {
+	width: 340px;
+	min-width: 340px;
+}
+.start-trading .yellow-button, 
+.start-trading .black-button {
+	margin: 0 5px;
+	width: 190px;
+}
+.start-trading .yellow-button a, 
+.start-trading .black-button a {
+	display: block;
+	padding: 20px 10px;
+	text-align: center;
+	font-size: 16px;
+}
+.start-trading .black-button a {
+	font-family: GothamPro-Medium;
+	text-align: left;
+}
+.start-trading .left-text-block p {
+	font-family: GothamPro-Medium;
+	font-size: 14px;
+	box-sizing: border-box;
+	padding-right: 30px;
+}
+.start-trading .right-image-block {
+	position: relative;
+	width: 70%;
+}
+.start-trading .right-image-block img {
+	max-width: 100%;
+}
+.start-trading .mobile-image-block .top-img,
+.start-trading .right-image-block .top-img {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	max-width: 100%;
+	max-height: 50%;
+}
+.start-trading .mobile-image-block .bottom-img,
+.start-trading .right-image-block .bottom-img {
+	position: absolute;
+	top: 0;
+	right: -10%;
+	max-width: 100%;
+	max-height: 90%;
+}
+.taste .right-text-block {
+	width: 200px;
+	min-width: 200px;
+}
+.taste .left-graph-block img {
+	width: 100%;
+	padding-right: 20px;
+	margin-bottom: 40px;
+}
+.taste .midle-text {
+	margin: 0 0 50px 0;
+}
+.taste .taste-buttons .mobile-up-button {
+	display: none;
+}
+.taste .taste-buttons .up-button,
+.taste .taste-buttons .mobile-up-button,
+.taste .taste-buttons .down-button {
+	border-radius: 5px;
+	margin: 10px 0;
+}
+.taste .taste-buttons .up-button a,
+.taste .taste-buttons .mobile-up-button a,
+.taste .taste-buttons .down-button a {
+	display: block;
+	padding: 20px;
+	text-align: center;
+	position: relative;
+}
+.taste .taste-buttons .up-button a img,
+.taste .taste-buttons .mobile-up-button a img,
+.taste .taste-buttons .down-button a img {
+	position: absolute;
+	left: 20px;
+	top: 25px;
+}
+.taste .taste-buttons .mobile-up-button,
+.taste .taste-buttons .up-button {
+	background: rgb(0,212,117);
+}
+.taste .taste-buttons .down-button {
+	background: rgb(255,0,69);
+}
+.taste .taste-buttons .up-and-down {
+	margin: 20px 0;
+}
+.taste .taste-buttons .up-and-down .up-and-down-top {
+	display: flex;
+	justify-content: space-between;
+}
+.taste .taste-buttons .up-and-down .up-and-down-top p {
+	margin-bottom: 0;
+}
+.taste .taste-buttons .up-and-down .up-and-down-bottom {
+	display: flex;
+}
+.taste .taste-buttons .up-and-down .up-and-down-bottom .left-hr {
+	width: 42%;
+}
+.taste .taste-buttons .up-and-down .up-and-down-bottom .left-hr hr {
+	height: 3px;
+	background: rgb(255,0,69);
+	border: 0;
+}
+.taste .taste-buttons .up-and-down .up-and-down-bottom .right-hr {
+	width: 68%;
+}
+.taste .taste-buttons .up-and-down .up-and-down-bottom .right-hr hr {
+	height: 3px;
+	background: rgb(0,212,117);
+	border: 0;
+}
+.why-select-us .why-select-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.why-select-us .why-select-container .why-select-block {
+	width:calc(33.33% - 1px);
+	border: solid rgb(35,42,51);
+	border-width: 0 0 1px 1px;
+	height: 150px;
+	padding: 40px;
+}
+.why-select-us .why-select-container .why-select-block img {
+	float: left;
+	margin: 0 35px 35px 0;
+}
+.why-select-us .why-select-container .why-select-block p {
+	margin-top: 0;
+}
+.why-select-us .why-select-container .why-select-block:nth-child(1),
+.why-select-us .why-select-container .why-select-block:nth-child(4) {
+	border-left: 0;
+}
+.why-select-us .why-select-container .why-select-block:nth-child(4),
+.why-select-us .why-select-container .why-select-block:nth-child(5),
+.why-select-us .why-select-container .why-select-block:nth-child(6) {
+	border-bottom: 0;
+}
+.any-moment .flex-container {
+	justify-content: space-around;
+	margin: 100px auto;
+	flex-wrap: wrap;
+}
+.any-moment .flex-container img {
+	padding: 20px;
+}
+.main-form {
+	display: none;
+	position: fixed;
+	top: 0;
+	background: rgb(35,38,43);
+	width: 420px;
+	z-index: 10;
+	padding: 60px 50px;
+	height: 100vh;
+	overflow: auto;
+}
+.main-form .title-text {
+	font-size: 50px;
+	margin: 40px 0;
+}
+.form-line {
+	display: flex;
+}
+.form-line .form-line-left {
+	width: 5%;
+}
+.form-line .form-line-right {
+	width: 95%
+}
+.form-line .form-line-left hr {
+	height: 3px;
+	background: rgb(251,255,0);
+	border: 0;
+}
+.form-line .form-line-right hr {
+	height: 3px;
+	background: rgb(44,52,68);
+	border: 0;
+}
+.main-form .yellow-button, 
+.main-form .black-button {
+	margin: 0 5px;
+	width: 190px;
+	height: 60px;
+}
+.main-form .big-yellow-button {
+	width: 240px;
+	margin-top: 40px;
+}
+.main-form .yellow-button a, 
+.main-form .black-button a {
+	display: block;
+	padding: 21px 0;
+	text-align: center;
+}
+.main-form .black-button a {
+	text-align: left;
+	font-family: GothamPro-Medium;
+}
+.main-form .text-input {
+	background: rgb(35,38,43);
+    width: 100%;
+    font-size: 20px;
+    color: rgb(129,141,161);
+    border: 0;
+}
+.form-container {
+  	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin: 30px 0 30px 0;
+	cursor: pointer;
+	font-size: 22px;
+}
+.form-container input {
+  	position: absolute;
+  	opacity: 0;
+  	cursor: pointer;
+  	height: 0;
+  	width: 0;
+}
+.form-container .checkmark {
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	height: 25px;
+  	width: 25px;
+  	background: #23262B;
+  	border: 3px solid rgb(44,52,68);
+  	border-radius: 5px;
+}
+.form-container:hover input ~ .checkmark {
+  	background-color:  rgb(129,141,161);
+}
+.form-container input:checked ~ .checkmark {
+  	background-color: rgb(251,255,0);
+}
+.form-container .checkmark:after {
+  	content: "";
+  	position: absolute;
+  	display: none;
+}	
+.form-container input:checked ~ .checkmark:after {
+  	display: block;
+}
+.form-container .checkmark:after {
+  	left: 6px;
+  	top: 2px;
+  	width: 5px;
+  	height: 10px;
+  	border: solid black;
+  	border-width: 0 3px 3px 0;
+  	-webkit-transform: rotate(45deg);
+  	-ms-transform: rotate(45deg);
+  	transform: rotate(45deg);
+}
+.form-currency .form-container .checkmark {
+	border-radius: 50%;
+}
+.form-currency .form-container input:checked ~ .checkmark {
+  	background-color:  rgb(35,38,43);
+  	border-color: rgb(129,141,161);
+}
+.form-currency .form-container .checkmark:after {
+  	border: 5px solid rgb(251,255,0);
+	border-radius: 50%;
+	top: 4.25px;
+	left: 4.25px;
+	transform: none;
+	width: 0;
+	height: 0;
+}
+.main-form .form-close {
+ 	position: absolute;
+ 	top: 20px;
+ 	left: 20px;
+ 	cursor: pointer;
+}
+.main-form a {
+ 	position: relative;
+}
+.black-button img.right-how,
+.main-form a img.right-create {
+ 	position: absolute;
+	top: 23px;
+	right: 42px;
+}
+.main-form a img.right-sign {
+ 	position: absolute;
+	top: 21px;
+	right: 10px;
+}
+.main-form a img.left-back {
+ 	position: absolute;
+	top: 23px;
+	left: 0;
+}
+.main-form a.back-button {
+	padding-left: 20px;
+	margin-top: 20px;
+}
+#sign-form .sign-form-buttons,
+.main-form .form-currency {
+	display: flex;
+}
+#sign-form .sign-form-buttons {
+	margin-bottom: 60px;
+}
+#sign-form .sign-form-buttons .black-button a {
+	padding: 10px;
+}
+.main-form .form-currency label {
+	margin-left: 10px;
+}
+.main-form .form-currency p {
+	margin: 30px 0 0 0;
+}
+.footer .flex-container {
+	line-height: 1.5;
+}
+.footer .flex-container .left-text-block {
+	min-width: 250px;
+}
+.footer .flex-container .left-information-block {
+	display: flex;
+}
+.footer .flex-container .left-information-block a {
+	color: rgb(129,141,161);
+	padding: 10px;
+	margin: 0 15px;
+}
+.footer .flex-container .right-social-block a {
+	padding: 10px;
+    margin: 0 15px;
+}
+@media screen and (max-width: 1265px){
+	.why-select-us .why-select-container .why-select-block {
+		width: 50%;
+		border: 0;
+	}
+}
+@media screen and (max-width: 1070px){
+	h1, h2, .title-text {
+		font-size: 40px;
+	}
+	.why-select-us .why-select-container .why-select-block {
+		width: 50%;
+		border: 0;
+	}
+}
+@media screen and (max-width: 840px){
+	h1, h2, .title-text {
+		font-size: 30px;
+	}
+	.start-trading .right-image-block,
+	.taste .taste-buttons .up-button {
+		display: none;
+	}
+	.start-trading .left-text-block,
+	.taste .right-text-block,
+	.why-select-us .why-select-container .why-select-block {
+		width: 100%;
+	}
+	.start-trading .start-trading-buttons {
+		display: flex;
+	}
+	.start-trading .mobile-image-block {
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 300px;
+		margin-bottom: 40px;
+	}
+	.taste .taste-buttons .mobile-buttons {
+		display: flex;
+		justify-content: space-between;
+	}
+	.taste .taste-buttons .mobile-up-button, 
+	.taste .taste-buttons .down-button {
+		width: 48%;
+	}
+	.taste .flex-container,
+	.taste .taste-buttons .mobile-up-button,
+	.footer .flex-container:nth-child(1),
+	.footer .flex-container .left-information-block {
+		display: block;
+	}
+}
+.client-information {
+	margin: 40px 10% 40px 340px;
+}
+.client-information .title-text {
+	font-size: 50px;
+}
+.client-information-menu {
+	width: 270px;
+	position: fixed;
+	top: 0;
+	background: rgb(35,38,43);
+	z-index: 10;
+	padding: 60px 50px;
+	height: 100vh;
+	overflow: auto;
+}
+.client-information-menu .menu-block {
+	display: flex;
+	flex-direction: column;
+	margin: 60px 0;
+}
+.client-information-menu .menu-block a {
+	padding: 10px 0;
+	color: rgb(129,141,161);
+	font-size: 14px;
+	margin: 15px 0;
+}
+.client-information-menu .social-block {
+	width: 270px;
+	border-top: 1px solid rgb(44,52,68);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding: 15px 0;
+	display: flex;
+	justify-content: center;
+}
+.client-information-menu .social-block a {
+	padding: 10px;
+	margin: 0 15px;
+}
